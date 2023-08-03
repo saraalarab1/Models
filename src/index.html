@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>A-Frame OBJ Model Rotation</title>
+</head>
+<body>
+  <a-scene>
+    <a-assets>
+      <!-- Load your OBJ and MTL files -->
+      <a-asset-item id="obj-model" src="./model/9a68e9a982ba410bba5beed6a73423d1.obj"></a-asset-item>
+      <a-asset-item id="obj-mtl" src="./model/9a68e9a982ba410bba5beed6a73423d1.mtl"></a-asset-item>
+    </a-assets>
+
+    <a-camera position="5 1.6 -5"></a-camera>
+
+    <a-entity obj-model="obj: #obj-model; mtl: #obj-mtl;" rotation="-90 0 0"></a-entity>
+
+    <a-sky color="#ECECEC"></a-sky>
+  </a-scene>
+</body>
+</html>
