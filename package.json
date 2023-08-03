@@ -1,5 +1,6 @@
 {
   "name": "inmind",
+  "url": "git+https://github.com/saraalarab1/Models.git",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
